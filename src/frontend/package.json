@@ -1,0 +1,21 @@
+{
+  "name": "OpenLens",
+  "version": "1.0.0",
+  "description": "Open-source alternative to proprietary data analytics platforms",
+  "main": "index.tsx",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "graphql": "^15.8.0",
+    "@apollo/client": "^3.7.3"
+  },
+  "devDependencies": {
+    "react-scripts": "^5.0.1",
+    "typescript": "^4.8.4"
+  }
+}
