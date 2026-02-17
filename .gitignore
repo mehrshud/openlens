@@ -1,0 +1,130 @@
+# IDE files
+.vscode/
+.idea/
+.webstorm/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Go files
+go/bin/
+go/pkg/
+*.go.build
+
+# GraphQL files
+.graphqlconfig
+ schema.json
+
+# React files
+build/
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# Python files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+
+# Docker files
+Dockerfile-dev
+docker-compose*.yml
+.dockerignore
+
+# Terraform files
+.terraform/
+terraform.tfstate
+terraform.tfstate.backup
+terraform.tfplan
+
+# Secrets
+*.secret
+*.key
+*.pem
+*.env
+secrets.json
+secrets.yml
+config.json
+config.yml
+
+# Logs
+logs/
+*.log
+*.tmp
+
+# Miscellaneous
+.env.example
+coverage/
+package-lock.json
+yarn.lock
+package.json
+gulpfile.js
+gruntfile.js
+mix.lock
+composer.lock
+composer.json
+
+# Specific files to ignore
+*.tmp
+*.iml
+*.tmp
+*.log
+*.lock
+*.sublime-text
+*.atom
+*.vs
+*.code-search
+*.metadata
+*.classpath
+*.classpath
+*.project
+*.settings
+*.cache
+*/node_modules
+*/target
+*/.git
+*/.svn
+*/.hg
+*/.bzr 
+*.egg-info
+*.dist-info
+
+# Git files
+.gitignore
+.gitattributes
+
+# React specific
+public/*
+!public/index.html
+
+# Node specific
+node_modules/*
+!node_modules/.bin
+
+# Go specific
+vendor/
+!vendor/README.md
+
+# GraphQL specific
+schema.graphql
+!schema.graphql
+
+# Python specific
+*.pydevproject
+*.python-version
+*.vscode/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+
+# Add custom rules here...
